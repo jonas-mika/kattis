@@ -1,5 +1,7 @@
 # Kattis Solutions
 
+![github-last-commit](https://img.shields.io/github/last-commit/jonas-mika/kattis?style=flat-square)
+
 This is a repository to store my solutions to [Kattis](https://www.kattis.com/developers) problems.  
 
 ## Workflow
@@ -12,25 +14,25 @@ with the kattis API with ease and speed.
 To **get single problems**, run (this creates a directory with the boilerplate file, test cases and opens the problem in the default web browser)
 
 ```bash
-kattis get -o <problem_id>
+kattis get -o [problem_id]
 ```
 
 To **test any version of the solution** against the cases, I run
 
 ```bash
-kattis watch <problem_id>
+kattis watch [problem_id]
 ```
 
 Lastly, to verify that all tests pass, I run ```kattis test <problem_id>```. If all tests pass, submit the problem using
 
 ```bash
-kattis submit <problem_id>
+kattis submit [problem_id]
 ```
 
 If I want to get all problems associated to a kattis contest (like [Lille Kat](https://www.github.io.)) run 
 
 ```bash
-kattis contest <contest_id>
+kattis contest [contest_id]
 ```
 
 *You can find the contest id from the last subroute of the contest url url.*
@@ -38,7 +40,7 @@ kattis contest <contest_id>
 ## Boilerplate
 
 Kat has a functionality to create boilerplate files for different programming languages. However, since I 
-would like my boilerplates to work platform independent, I created boilerplate files for each languages as 
+would like my boilerplates to work platform independent, I created boilerplate files for each language as 
 snippets (using the [luasnippet](https://github.com/L3MON4D3/LuaSnip) neovim plugin).
 
 To see the configurations for each language, visit the custom luasnippets [here](https://github.com/jonas-mika/dotfiles/tree/main/.config/nvim/luasnippets).
